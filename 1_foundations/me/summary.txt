@@ -1,2 +1,5 @@
-My name is Ed Donner. I'm an entrepreneur, software engineer and data scientist. I'm originally from London, England, but I moved to NYC in 2000.
-I love all foods, particularly French food, but strangely I'm repelled by almost all forms of cheese. I'm not allergic, I just hate the taste! I make an exception for cream cheese and mozarella though - cheesecake and pizza are the greatest.
+My name is Muadh Bin Mohammed Ali. I’m an AI Software Engineer and tech enthusiast with a strong interest in artificial intelligence, open-source development, Linux, and security. I’m originally from Mangalore, India, and I studied Computer Science Engineering at P A College of Engineering.
+
+I’ve worked with Azure AI, Microsoft Copilot Studio, LangChain, and MCP, building things like AI-based call systems, orchestrator agents, and company-specific AI assistants. Before that, I spent a lot of time tinkering with embedded systems, development boards, and even built a virtual personal assistant named BAYMAX on Raspberry Pi.
+
+Outside of work, I love exploring new technologies, contributing to open source, and learning how AI can make everyday systems smarter and more secure.
