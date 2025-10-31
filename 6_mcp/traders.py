@@ -17,24 +17,24 @@ from templates import (
 from mcp_params import trader_mcp_server_params, researcher_mcp_server_params
 
 load_dotenv(override=True)
-
 deepseek_api_key = os.getenv("DEEPSEEK_API_KEY")
-google_api_key = os.getenv("GOOGLE_API_KEY")
+google_api_key = os.getenv("GEMINI_API_KEY")
 grok_api_key = os.getenv("GROK_API_KEY")
-openrouter_api_key = os.getenv("OPENROUTER_API_KEY")
+openai_api_key = os.getenv("OPENAI_API_KEY")  # ← use OpenAI key instead of OpenRouter
 
+# Base URLs for each provider
 DEEPSEEK_BASE_URL = "https://api.deepseek.com/v1"
 GROK_BASE_URL = "https://api.x.ai/v1"
 GEMINI_BASE_URL = "https://generativelanguage.googleapis.com/v1beta/openai/"
-OPENROUTER_BASE_URL = "https://openrouter.ai/api/v1"
+OPENAI_BASE_URL = "https://api.openai.com/v1"  # ← official OpenAI endpoint
 
 MAX_TURNS = 30
 
-openrouter_client = AsyncOpenAI(base_url=OPENROUTER_BASE_URL, api_key=openrouter_api_key)
+# Initialize clients
 deepseek_client = AsyncOpenAI(base_url=DEEPSEEK_BASE_URL, api_key=deepseek_api_key)
 grok_client = AsyncOpenAI(base_url=GROK_BASE_URL, api_key=grok_api_key)
 gemini_client = AsyncOpenAI(base_url=GEMINI_BASE_URL, api_key=google_api_key)
-
+openai_client = AsyncOpenAI(base_url=OPENAI_BASE_URL, api_key=openai_api_key)
 
 def get_model(model_name: str):
     if "/" in model_name:
