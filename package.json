@@ -1,0 +1,25 @@
+{
+  "name": "agents",
+  "version": "1.0.0",
+  "description": "### 6 week journey to code and deploy AI Agents with OpenAI Agents SDK, CrewAI, LangGraph, AutoGen and MCP",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ed-donner/agents.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ed-donner/agents/issues"
+  },
+  "homepage": "https://github.com/ed-donner/agents#readme",
+  "dependencies": {
+    "22": "^0.0.0",
+    "@playwright/mcp": "^0.0.44",
+    "playwright": "^1.57.0-alpha-2025-10-24"
+  }
+}
